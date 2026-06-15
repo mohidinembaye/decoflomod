@@ -1,0 +1,48 @@
+{
+  "utilisateurs": [
+    {
+      "id": "1",
+      "nom": "Aminata Diallo",
+      "email": "client@decoflow.com",
+      "motDePasse": "client123",
+      "entreprise": "Particulier",
+      "role": "client",
+      "dateInscription": "2024-01-10T09:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "nom": "Karim Mbaye",
+      "email": "admin@decoflow.com",
+      "motDePasse": "admin123",
+      "entreprise": "DecoFlow",
+      "role": "admin",
+      "dateInscription": "2024-01-01T08:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "nom": "Mohidine Mbaye",
+      "email": "mohidineb@decoflow.com",
+      "motDePasse": "super123",
+      "entreprise": "maze",
+      "role": "superadmin",
+      "dateInscription": "2023-12-01T08:00:00.000Z",
+      "biographie": "",
+      "telephone": "",
+      "preferences": {
+        "langue": "fr",
+        "densite": "normal",
+        "notifications": {
+          "commandes": true,
+          "devis": true,
+          "hebdo": false,
+          "stock": true,
+          "users": false
+        }
+      }
+    }
+  ],
+  "produits": [],
+  "commandes": [],
+  "devis": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}
